@@ -7,7 +7,7 @@ client.on('ready', () => {
   client.channels.get(debugChannel).send('I RISE')
 });
 
-client.login('Njc5NDg0NzU1OTAwNzYwMDc0.XkyKKw.966yMvra4kU4qvmM-MkGtps4CZQ');
+client.login(process.env.TOKEN);
 
 process.on('exit', (code) => {
     client.channels.get(debugChannel).send('I\'m dead. Reason:\n'+code)
