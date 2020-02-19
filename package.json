@@ -1,0 +1,13 @@
+{
+  "name": "lenny-bot-3000",
+  "version": "0.1.0",
+  "description": "The stupidest discord bot around(tm)!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "author": "HK",
+}
